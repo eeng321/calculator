@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grade Calculator</title>
+<link href="calculator.css" rel="stylesheet">
+<style>
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h2>Let the borders collapse:</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Short Name</th>
+    <th>Grade</th>
+    <th>Percentage</th>
+  </tr>
+  <tr>
+    <td>Activity 1</td>
+    <td>A1</td>
+    <td><input type="text" name="x1"> /    <input type="text" name="y1"</td>
+    <td id="p1"></td>
+  </tr>
+  <tr>
+    <td>Activity 2</td>
+    <td>A2</td>
+     <td><input type="text" name="x2"> /    <input type="text" name="y2"</td>
+    <td id="p2"></td>
+  </tr>
+  <tr>
+    <td>Activity 3</td>
+    <td>A3</td>
+    <td><input type="text" name="x3"> /    <input type="text" name="y3"</td>
+    <td id="p3"></td>
+  </tr>
+  <tr>
+    <td>Activity 4</td>
+    <td>A3</td>
+    <td><input type="text" name="x4"> /    <input type="text" name="y4"</td>
+    <td id="p4"></td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td id="total"></td>
+    <td></td>
+    <td id="result"></td>
+  </tr>
+</table>
+
+
+<button type="Average"
+onclick="document.getElementById('result').innerHTML = ('x1'/'x2')">
+</button>
+<button type="Mean"
+onclick="document.getElementById('result').innerHTML = x2/y2">
+</button>
+
+
+<p><b>Note:</b> If a !DOCTYPE is not specified, the border-collapse property can produce unexpected results
+in IE8 and earlier versions.</p>
+<script src="calculator.js"></script>
+</body>
+</html>
