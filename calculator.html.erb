@@ -52,7 +52,11 @@
     </tr>
     <tr>
       <td id="bold">Total</td>
-      <td id="total"></td>
+      <td id="total">
+<!--       <script>
+        document.getElementById('total').value = checkTotal();
+      </script> -->
+      </td>
       <td></td>
       <td id="result"></td>
       <td id="lgAvg"></td>
@@ -60,16 +64,16 @@
   </table>
   <br>
   <button type="Mean"
-  onclick="document.getElementById('result').innerHTML = getMean()">
+  onclick="document.getElementById('result').innerHTML = 0">
   MEAN
   </button>
   <button type="Average"
-  onclick="document.getElementById('result').innerHTML = getAverage()">
+  onclick="document.getElementById('result').innerHTML = 0">
   AVERAGE
   </button>
 <br>
 <br>
 </div>
-<!-- <script src="calculator.js"></script> -->
+<!-- <script src="welcome.js"></script> -->
 </body>
 </html>
