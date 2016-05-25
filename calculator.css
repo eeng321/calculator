@@ -1,15 +1,96 @@
-body {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
+table {
+    font-family: "Arial", sans-serif;
     font-size: 16px;
-    background-color: dimgrey;
-    color: #696969;
-    padding: 3px;
+    /*background-color: dimgrey;*/
+    color: black;
+    padding: 5px;
 }
 
-#main {
-    padding: 5px;
-    padding-left:  15px;
-    padding-right: 15px;
-    background-color: #ffffff;
-    border-radius: 0 0 5px 5px;
+body {
+    font-family: "Arial", sans-serif;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 50px;
+    background-color: white;
 }
+#content{
+    background-color: #e6e6ff;
+    border: 5px #f5f5ef;
+    border-style: solid;
+    padding: 20px;
+}
+input{
+    width: 75px;
+    height: 25px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: #cc0000;
+    color: white;
+    float: right;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+#p02 {
+    font-weight: bold;
+    color: #cc0000;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border-width: 5px;
+    border-color: #d7d7c1;
+    border-style: solid;
+}
+th, td{
+    text-align: left;
+}
+
+th{
+    font-weight: bold;
+    height: 25px;
+    width: 120px;
+    background-color: #ebebe0;
+}
+
+td{
+    width: 200px;
+    height: 40px;
+}
+
+#result{
+    text-align: center;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+#top, #bottom, #left, #right{
+    background: #b30000;
+    position: fixed;
+    padding: 10px;
+}
+
+#left, #right{
+    top: 0; bottom: 0;
+    width: 15px;
+}
+#left{ left: 0; }
+#right{ right: 0; }
+
+#top, #bottom {
+    left: 0; right: 0;
+    height: 10px;
+}
+#top{ top: 0; }
+#bottom { bottom: 0; }
